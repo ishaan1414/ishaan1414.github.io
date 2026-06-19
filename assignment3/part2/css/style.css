@@ -120,5 +120,5 @@ nav li a:hover {
 nav li a:active {
   color: #ffffff;
   background: #4a2222;
-  border-color: #4a2222;
+  border-color: transparent;
 }
