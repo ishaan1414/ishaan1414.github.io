@@ -1,0 +1,12 @@
+/*
+Name - Ishaan Malhotra
+Date Created - 19 June 2026
+File Name - style.css
+Description - Assignment 3 Part 1 styling a biography page for INFT 1206 */
+html {
+  background-color: white;
+}
+
+body {
+  font: 1.2em / 1.5 system-ui;
+}
