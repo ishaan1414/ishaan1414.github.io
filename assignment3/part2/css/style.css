@@ -45,13 +45,7 @@ footer {
 footer p {
   text-align: center;
 }
-/*General text styling
-Give your headings and other element types appropriate font-sizes defined using a suitable relative unit.
-Give your body text a suitable line-height.
-Center your top level heading on the page.
-Remove the bottom margin from your second-level headings.
-Give your headings and body text some letter-spacing to make them not too squashed, and allow the letters to breathe a bit.
-Give the first paragraph after each heading in the <section> a little bit of text-indentation, say 2rem.*/
+
 h1{
   font-size: 3.5rem;
   text-align: centre;
@@ -69,4 +63,36 @@ section h2 + p{
 p, l1{
   line-height: 1.5;
   letter-spacing: 0.5px;
+}
+a{
+  outline: none;
+}
+a:link, a:visited{
+  color: #aa6666;
+}
+a:focus, a:hover{
+  text-decoration: none;
+  color: #164e63;
+}
+a[href*="http"] {
+  padding-right: 18px;
+  background: url(external-link-52.png) no-repeat right center;
+  background-size: 10px 10px;
+}
+ul, ol{
+  margin: 1.20rem 0;
+}
+ul{
+  list-style-type: square;
+}
+ol{
+  list-style-type: lower-roman;
+}
+
+nav ul{
+  padding-left: 0;
+}
+nav li{
+  list-style-type: none;
+  margin-bottom: 1.5rem;
 }
