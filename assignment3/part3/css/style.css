@@ -30,6 +30,9 @@ img {
 .grid {
   margin: 0 auto;
   max-width: 980px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
 }
 
 nav {
@@ -61,4 +64,6 @@ nav a {
 
 .feature {
   width: 200px;
+  float: left;
+  margin: 0 20px 15px 0;
 }
