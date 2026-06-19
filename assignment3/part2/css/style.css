@@ -48,7 +48,7 @@ footer p {
 
 h1{
   font-size: 3.5rem;
-  text-align: centre;
+  text-align: center;
   letter-spacing: 2px;
 }
 h2{
@@ -60,7 +60,7 @@ h2{
 section h2 + p{
   text-indent: 2rem;
 }
-p, l1{
+p, li{
   line-height: 1.5;
   letter-spacing: 0.5px;
 }
@@ -69,6 +69,7 @@ a{
 }
 a:link, a:visited{
   color: #aa6666;
+  text-decoration: underline;
 }
 a:focus, a:hover{
   text-decoration: none;
@@ -95,4 +96,29 @@ nav ul{
 nav li{
   list-style-type: none;
   margin-bottom: 1.5rem;
+}
+nav li a{
+  font-family: "Source Serif 4", "Times New Roman", serif;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  line-height: 3;
+  letter-spacing: 1.2px;
+  font-size: 1.15rem;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1.5px solid #aa6666;
+  color: #aa6666;
+}
+nav li a:focus,
+nav li a:hover {
+  color: #ffffff;
+  background: #aa6666;
+}
+
+nav li a:active {
+  color: #ffffff;
+  background: #4a2222;
+  border-color: #4a2222;
 }
