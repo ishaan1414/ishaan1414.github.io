@@ -24,3 +24,8 @@ newImage.alt = images.alt;
 newImage.tabIndex = "0";
 thumbBar.addEventListener("click", updateDisplayedImage)
 }
+// The updateDisplayedImage() function. Displays the activated thumbnail at full size.
+function updateDisplayedImage(e) {
+  displayedImage.src = e.target.src;
+  displayedImage.alt = e.target.alt;
+}
