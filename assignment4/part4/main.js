@@ -1,7 +1,7 @@
 /*Name - Ishaan Malhotra
 Date Created - 28 July 2026
 File Name - main.js
-Description - Assignment 4 Part 3 Bouncing Balls for INFT 1206*/
+Description - Assignment 4 Part 4 Bouncing Balls Continued for INFT 1206*/
 // setup canvas
 
 const canvas = document.querySelector("canvas");
@@ -20,6 +20,14 @@ function random(min, max) {
 
 function randomRGB() {
   return `rgb(${random(0, 255)},${random(0, 255)},${random(0, 255)})`;
+}
+class Shape {
+  constructor(x, y, velX, velY) {
+    this.x = x;
+    this.y = y;
+    this.velX = velX;
+    this.velY = velY;
+  }
 }
 class Ball {
   constructor(x, y, velX, velY, color, size) {
