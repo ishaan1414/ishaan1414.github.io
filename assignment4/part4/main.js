@@ -157,20 +157,9 @@ while (balls.length < 25) {
 
   balls.push(ball);
   counter++;
-  parseFloat.textContent = `Ball Count: ${counter}`;
+  ballCountPara.textContent = `Ball Count: ${counter}`;
 }
-function loop() {
-  ctx.fillStyle = "rgb(0 0 0 / 25%)";
-  ctx.fillRect(0, 0, width, height);
 
-  for (const ball of balls) {
-    ball.draw();
-    ball.update();
-    ball.collisionDetect();
-  }
-
-  requestAnimationFrame(loop);
-}
 const villianBall = new EvilCircle(random(0, width), random(0, height));
 function loop() {
   ctx.fillStyle = "rgba(0, 0, 0, 0.25)";
