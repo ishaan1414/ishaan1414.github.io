@@ -2,8 +2,10 @@
 Date Created - 28 July 2026
 File Name - main.js
 Description - Assignment 4 Part 4 Bouncing Balls Continued for INFT 1206*/
-// setup canvas
 
+const ballCountPara = document.querySelector("p");
+let counter = 0;
+// setup canvas
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
 
@@ -154,6 +156,8 @@ while (balls.length < 25) {
   );
 
   balls.push(ball);
+  counter++;
+  parseFloat.textContent = `Ball Count: ${counter}`;
 }
 function loop() {
   ctx.fillStyle = "rgb(0 0 0 / 25%)";
