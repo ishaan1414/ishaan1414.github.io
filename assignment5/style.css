@@ -187,6 +187,18 @@ figcaption {
   color: #2a2a2a;
   padding-top: 0.5rem;
 }
+h4 {
+  font-family: 'Sonsie One', cursive;
+  color: #2a2a2a;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+.transcript {
+  padding: 10px 15px;
+  border-left: 4px solid #2a2a2a;
+  background-color: #def;
+  font-style: italic;
+}
 /* Comments styling */
 
 .comments {
@@ -225,15 +237,11 @@ figcaption {
   margin-left: 1rem;
   flex: 6;
 }
-
-.show-hide {
-  text-align: center;
-  width: 150px;
-}
+/* changed line-height to height and made appropriate changes to .show-hide.*/
 
 .comment-form input, .comment-form label, .show-hide {
   font-size: 1.6rem;
-  line-height: 32px;
+  height: 32px;
 }
 
 .comment-form input[type="submit"], .show-hide {
