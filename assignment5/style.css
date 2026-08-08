@@ -1,7 +1,7 @@
 /*
 Name - Ishaan Malhotra
 Date Created - 07 August 2026
-File Name - index.html
+File Name - style.css
 Description - Assignment 5 Accessibility Troubleshooting for INFT 1206 */
 /* || General setup */
 
@@ -59,7 +59,10 @@ p, li, table {
 nav, article, footer, .secondary {
   background-color: white;
 }
-
+header {
+  background-color: #2a2a2a;
+  padding: 10px 0;
+}
 article, footer, .secondary {
   padding: 10px 30px;
 }
