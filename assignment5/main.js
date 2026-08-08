@@ -1,3 +1,8 @@
+/*
+Name - Ishaan Malhotra
+Date Created - 07 August 2026
+File Name - main.js
+Description - Assignment 5 Accessibility Troubleshooting for INFT 1206 */
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
